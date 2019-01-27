@@ -1,0 +1,515 @@
+body {
+
+
+    font-family: 'Patua One', cursive!important;
+
+}
+
+.row {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+.col-md-5 {
+    width: 50%!important;
+}
+
+.col-xs-12 {
+        width: 100%!important;
+}
+
+/*------------------------navbar----------------------------*/
+
+.nav {
+
+
+
+    width: 100vh;
+
+    overflow: hidden;
+
+
+}
+
+.nav_item {
+
+    right: 10%;
+    float: right;
+
+
+}
+
+ a {
+    color: #FC0853!important;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+/*----------------------section 1------------------------*/
+
+.letter:hover {
+
+    transform: rotate(0deg);
+    animation: bounce 1s infinite;
+    position: relative;
+    color: #FC0853;
+
+
+
+}
+
+@keyframes bounce {
+
+    0% {
+
+        top: 0px;
+
+    }
+
+    50% {
+
+        top: 5px;
+
+    }
+
+    100% {
+
+        top: 0px;
+
+    }
+
+}
+
+.letter_k {
+    text-shadow: 3px 4px #FC0853;
+}
+
+.main_image {
+    background-attachment: fixed;
+    background-image: url("../media/cover_photo_1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    margin-left: 0px!important;
+    padding-left: 0px!important;
+    margin-right: 0px!important;
+    padding-right: 0px!important;
+}
+
+
+
+
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    color: black;
+    font-size: 42px;
+    font-weight: bold;
+    width: 50%;
+
+}
+
+
+.view_my_work {
+    color: #FC0853!important;
+    background-color: #f8f9fa!important;
+    border-color: #FC0853!important;
+
+
+}
+
+/*------------------section 2 - About ----------------------------------*/
+
+.hi_there {
+    padding-bottom: 15px!important;
+}
+
+.fa-hand-paper {
+    height: 100%;
+
+    float: center;
+}
+
+
+
+
+.center {
+    float: center;
+    padding: 20px;
+
+    text-align: center;
+}
+
+.cv_pic {
+    border-radius: 50%;
+    background: url("../media/cv_pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+
+}
+
+@media (max-width:767px) {
+    .cv_pic {
+            background: url("../media/cv_pic_mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 260px;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .cv_pic{
+            background: url("../media/cv_pic_mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 260px;
+     
+
+    }
+}
+
+
+
+.about_section {
+    background-color: #181818;
+    color: white;
+    padding: 5%;
+  
+}
+
+.about_section_columns {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   .about_section_columns {
+     padding-left: 10px!important;
+    padding-right: 10px!important;
+
+    }
+}
+
+
+.pop {
+    color: #FC0853;
+}
+
+
+/*------------------section 3 Work---------*/
+
+.languages {
+    color: white;
+}
+
+
+
+.visit_site {
+
+    color: black!important;
+    width: 20%;
+    background-color: white!important;
+
+}
+
+.visit_site:hover {
+    background-color: #FC0853!important;
+}
+
+
+
+.Sole-Mates-Row {
+    padding: 7%;
+    text-align: center;
+
+    height: 80vh;
+    background-color: white;
+}
+
+
+
+.Sole_Mates_Img {
+
+    background-image: url("../media/SoleMates1.jpg");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.site_desription {
+    padding: 7%;
+}
+
+
+
+.Goal_img {
+
+    background-image: url("../media/GoalKeeper.jpg");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.Goal-Row {
+    padding: 7%;
+    text-align: center;
+  
+    height: 80vh;
+    color: white;
+    background-color: #181818;
+}
+
+
+.SweetSensations_img {
+
+    background-image: url("../media/SweetSensations.jpg");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.sweet_sensations_row {
+    padding: 7%;
+    text-align: center;
+   
+    height: 80vh;
+    color: white;
+    background-color: #181818;
+}
+
+.gender_img {
+
+    background-image: url("../media/GenderEquality.jpg");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.gender-row {
+    padding: 7%;
+    text-align: center;
+   
+    height: 80vh;
+    color: black;
+    background-color: white;
+}
+
+
+.card-img-top {
+    size: 25rem!important;
+}
+
+.work_background {
+    background-color: #C8CECE;
+}
+
+.work {
+    padding: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------work grid----------------------------------*/
+
+.new-deal {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    background-color: #CAD0D0;
+}
+
+.new-deal .item-slide {
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    margin: 15px 0;
+}
+
+.new-deal .slide-hover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    background: rgba(0, 0, 0, .5);
+    top: 0;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
+
+    
+
+
+
+.new-deal .item-slide:hover .slide-hover {
+    left: 0px;
+}
+
+.new-deal img {
+    max-width: 100%;
+}
+
+.text-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    z-index: 999;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+.text-wrap h4 {
+    padding: 0 5px;
+}
+
+.box-img {
+    width: 100%;
+
+    float: left;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+@media (max-width:767px) {
+    .box-img {
+        height: 100%!important;
+
+
+    }
+}
+
+.text-wrap .desc {
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+}
+
+.text-wrap p {
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 2px 2px 3px #000;
+    margin-bottom:5px;
+}
+
+
+
+.text-wrap .desc h4 {
+    margin: 0px;
+    font: 400 17px/21px "Roboto";
+}
+
+.text-wrap .desc h3 {
+    margin: 0px;
+    font: 400 32px/36px "Roboto";
+}
+
+.new-deal .item-slide:hover .text-wrap {
+    background: none
+}
+
+.book-now-c {
+    float: right;
+    padding: 10px;
+}
+
+.book-now-c a {
+    background: #029a8b;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 0px;
+    float: left;
+    min-width: 101px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.new-deal .item-slide:hover .box-img .text-wrap {
+    bottom: -100%;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------footer---------------------------------*/
+
+.footer {
+    width: 100vw;
+    padding: 15px;
+    text-align: center;
+    background-color: #181818;
+    color: white;
+}
+
+.social {
+    color: #88898A;
+
+}
+
+.center {
+    text-align: center!important;
+
+}
+
+.social-links {
+    padding: 20px;
+    margin-top: 25px;
+    padding-left: 30px;
+}
+
+
+.list-inline-item {
+    width: 32px;
+    height: 32px;
+    padding: 5px 0;
+    margin-inline-start: 0!important;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 9px;
+    texrt-align: center;
+    color: white!important;
+    background-color: #0077B5;
+}
