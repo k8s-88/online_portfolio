@@ -31,6 +31,10 @@ body {
 
 }
 
+.navbar {
+      flex-wrap: unset!important;
+}
+
 .nav_item {
 
     right: 10%;
@@ -44,6 +48,16 @@ body {
     font-size: 1.5em;
     margin-right: 20px;
 }
+
+
+/*@media (max-width:767px) {*/
+/*    .{*/
+
+
+/*    }*/
+/*}*/
+
+
 
 /*----------------------section 1------------------------*/
 
