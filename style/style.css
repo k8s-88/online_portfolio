@@ -15,8 +15,21 @@ body {
 }
 
 .col-xs-12 {
-        width: 100%!important;
+    width: 100%!important;
 }
+
+.btn {
+    
+}
+@media (max-width:767px) {
+    .btn {
+
+        font-size: 0.7rem!important;
+    }
+}
+
+
+
 
 /*------------------------navbar----------------------------*/
 
@@ -32,8 +45,8 @@ body {
 }
 
 .navbar {
-      flex-wrap: unset!important;
-      display: -webkit-inline-box!important;
+    flex-wrap: unset!important;
+    display: -webkit-inline-box!important;
 }
 
 .nav_item {
@@ -44,10 +57,17 @@ body {
 
 }
 
- a {
+a {
     color: #FC0853!important;
     font-size: 1.5em;
     margin-right: 20px;
+}
+
+@media (max-width:767px) {
+    a {
+
+        font-size: 0.8em;
+    }
 }
 
 
@@ -124,7 +144,7 @@ body {
 @media (max-width:767px) {
     .centered {
 
- font-size: 37px;
+        font-size: 37px;
     }
 }
 
@@ -174,23 +194,24 @@ body {
 
 @media (max-width:767px) {
     .cv_pic {
-            background: url("../media/cv_pic_mobile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 260px;
+        background: url("../media/cv_pic_mobile.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 260px;
+        margin-bottom: 20px!important;
 
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .cv_pic{
-            background: url("../media/cv_pic_mobile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 260px;
-     
+    .cv_pic {
+        background: url("../media/cv_pic_mobile.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 260px;
+
 
     }
 }
@@ -201,7 +222,7 @@ body {
     background-color: #181818;
     color: white;
     padding: 5%;
-  
+
 }
 
 .about_section_columns {
@@ -210,10 +231,11 @@ body {
 
 
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
-   .about_section_columns {
-     padding-left: 10px!important;
-    padding-right: 10px!important;
+    .about_section_columns {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
 
     }
 }
@@ -284,7 +306,7 @@ body {
 .Goal-Row {
     padding: 7%;
     text-align: center;
-  
+
     height: 80vh;
     color: white;
     background-color: #181818;
@@ -303,7 +325,7 @@ body {
 .sweet_sensations_row {
     padding: 7%;
     text-align: center;
-   
+
     height: 80vh;
     color: white;
     background-color: #181818;
@@ -321,7 +343,7 @@ body {
 .gender-row {
     padding: 7%;
     text-align: center;
-   
+
     height: 80vh;
     color: black;
     background-color: white;
@@ -387,7 +409,7 @@ body {
 }
 
 
-    
+
 
 
 
@@ -447,7 +469,7 @@ body {
     text-align: center;
     font-weight: normal;
     text-shadow: 2px 2px 3px #000;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 
 
